@@ -1,5 +1,6 @@
 package com.inventario.StockMax;
 
+import com.inventario.StockMax.config.DotenvInitializer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,7 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class StockMaxApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StockMaxApplication.class, args);
+		SpringApplication app = new SpringApplication(StockMaxApplication.class);
+		app.addInitializers(new DotenvInitializer());
+		app.run(args);
 	}
 
 }

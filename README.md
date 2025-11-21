@@ -139,13 +139,3 @@ No hay tests automáticos incluidos por defecto en este cambio, pero puedes ejec
 ```powershell
 .\mvnw.cmd test
 ```
-
-## Próximos pasos sugeridos
-
-- Añadir datos de ejemplo en `src/main/resources/data.sql` para pruebas manuales.
-- Añadir documentación OpenAPI (Springdoc) para ver y probar endpoints desde una UI.
-- Añadir tests de integración para flujos críticos (crear compra, crear y confirmar venta, stock).
-
----
-
-Si querés, lo dejo listo para agregar `data.sql` con algunos proveedores, clientes y categorías, o agrego OpenAPI ahora.

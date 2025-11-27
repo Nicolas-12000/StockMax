@@ -16,8 +16,7 @@ Proyecto Spring Boot con JPA/Hibernate y H2 (runtime) para demo de inventario. I
 
 Desde la raíz del proyecto:
 
-```powershell
-cd "c:/Users/nicolas garcia/Desktop/calculoMultivariado/aquitectura/StockMax/StockMax"
+```
 # Compilar (usar wrapper incluido)
 .\mvnw.cmd -DskipTests package
 
